@@ -2,7 +2,7 @@ Start application (first create db and seed)
 
 Go to the home page. You'll see 'Page model is decorate'
 
-Edit the decorator (for example add an empty line at the bottom of the decorator).
+Edit the decorator/routes.rb (for example add an empty line at the bottom of the decorator).
 
 Save it and refresh the homepage.
 
