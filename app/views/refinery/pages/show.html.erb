@@ -1,0 +1,7 @@
+<% if @page.respond_to?(:decorated?) && @page.decorated? %>
+  <h1 style="color:green">Page model is decorated</h1>
+<% else %>
+  <h1 style="color:red">Page model is NOT decorated</h1>
+<% end %>
+
+<%= render '/refinery/content_page' %>
